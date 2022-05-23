@@ -38,5 +38,11 @@ lab2-task-a:
 lab2-task-b:
 	cd ./test && GO111MODULE=on go test -v -run Lab2_TaskB
 
+lab2-task-c-xframe:
+	cd ./test && GO111MODULE=on go test -v -run Lab2_TaskC_XFrame
+
+lab2-task-c-codec:
+	cd ./test && GO111MODULE=on go test -v -run Lab2_TaskC_Codec
+
 lab2-task-c:
 	cd ./test && GO111MODULE=on go test -v -run Lab2_TaskC

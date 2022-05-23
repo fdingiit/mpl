@@ -1,4 +1,4 @@
-package simple
+package codec
 
 const (
 	ProtocolName = "simple"
